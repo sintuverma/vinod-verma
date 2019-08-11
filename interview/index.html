@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+	<title></title>
+	<link rel="stylesheet" href="lib/css/main.css">
+</head>
+<style type="text/css">
+
+
+</style>
+<body>
+	<div class="main" >
+		<center>
+      <h1 class="top_heading" >Search Home For Sale and Rent </h1>
+			<select id="soflow" class="home">
+				  <!-- This method is nice because it doesn't require extra div tags, but it also doesn't retain the style across all browsers. -->
+				  <option>Click Here</option>
+				  <option value="1">For Sale</option>
+				  <option value="2">For Rent</option>
+				</select>
+
+		</center>
+    <div class="rangeArea" style="position:relative ;display: none;">
+      <label class="label">Enter Range</label>
+      <input type="number" id="filter" name="min"/ placeholder="Enter Amount"><br/>
+      <a href="#" id="btnFilter" class="myButton">LOAD</a>
+      
+    </div>
+			
+		     
+			<table id="myTable" class="display" style="width:100%; display:none" >
+						<tr>
+							<th>Title</th>
+							<th>Price</th>
+							<th>Description</th>
+						</tr>
+			</table>
+	</div>
+	
+</body>
+
+<script type="text/javascript" src="lib/js/jQuery.js"></script> 
+<script type="text/javascript" src="lib/js/main.js"></script>
+
+
+
+
+
+
+</html>

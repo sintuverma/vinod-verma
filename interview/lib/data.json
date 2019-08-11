@@ -1,0 +1,37 @@
+{
+  "sale": [
+    {
+      "title": "Modern 1 bhk",
+      "price": "2000000",
+      "description": "Nice furnished 1 bhk in the heart of the city"
+    },
+    {
+      "title": "Nice 2 bhk",
+      "price": "5000000",
+      "description": "Nice furnished 2 bhk in the heart of the city"
+    },
+    {
+      "title": "Spacious furnished 3 bhk",
+      "price": "9000000",
+      "description": "Nice furnished 3 bhk at great price"
+    }
+  ],
+  "rent": [
+    {
+      "title": "compact 1 bhk",
+      "price": "5000",
+      "description": "Nice furnished 1 bhk in the heart of the city"
+    },
+    {
+      "title": "Nice 2 bhk",
+      "price": "10000",
+      "description": "Nice furnished 2 bhk in the heart of the city"
+    },
+    {
+      "title": "Spacious furnished 3 bhk",
+      "price": "15000",
+      "description": "Nice furnished 3 bhk at great price"
+    }
+  ]
+
+}
